@@ -2,5 +2,5 @@
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"]
+  "include": ["src", "api"]
 }
