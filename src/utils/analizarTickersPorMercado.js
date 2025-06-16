@@ -1,5 +1,5 @@
 // src/utils/analizarTickersPorMercado.js
-import { fetchStockData } from '../services/fetchStockData'; // BIEN
+import { fetchStockData } from '../utils/fetchStockData'; // BIEN
 // Lista predefinida de tickers por mercado
 const mercados = {
   usa: ['AAPL', 'MSFT', 'GOOGL', 'NVDA', 'AMZN'],

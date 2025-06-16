@@ -9,7 +9,7 @@ import {
   ResponsiveContainer
 } from "recharts";
 import VolverInicio from "./VolverInicio";
-import { fetchStockData } from "../services/fetchStockData"; // ✅ Ruta corregida
+import { fetchStockData } from "../utils/fetchStockData"; // ✅ Ruta corregida
 
 const StockChart = () => {
   const [ticker, setTicker] = useState("");

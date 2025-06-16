@@ -14,7 +14,7 @@ import {
   Legend
 } from "chart.js";
 
-import { fetchStockData } from "../services/fetchStockData"; // ✅ Ruta corregida
+import { fetchStockData } from "../utils/fetchStockData"; // ✅ Ruta corregida
 import VolverInicio from './VolverInicio';
 
 ChartJS.register(

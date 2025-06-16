@@ -4,7 +4,7 @@ import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from 'recharts';
 import VolverInicio from './VolverInicio';
-import { fetchStockData } from '../services/fetchStockData';
+import { fetchStockData } from '../utils/fetchStockData';
 
 
 const GraficoTicker = () => {
